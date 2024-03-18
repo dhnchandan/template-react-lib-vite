@@ -3,6 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-lib.umd.cjs",
+  "module": "./dist/react-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-lib.js",
+      "require": "./dist/react-lib.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
