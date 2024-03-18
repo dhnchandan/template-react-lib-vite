@@ -8,6 +8,7 @@
   ],
   "main": "./dist/react-lib.umd.cjs",
   "module": "./dist/react-lib.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/react-lib.js",
